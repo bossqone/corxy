@@ -1,0 +1,32 @@
+{
+  "name": "corxy",
+  "version": "0.1.0",
+  "main": "index.js",
+  "description": "Simple CORS proxy",
+  "homepage": "https://github.com/bossqone/corxy",
+  "bugs": "https://github.com/bossqone/corxy/issues",
+  "author": {
+    "name": "Lukáš Kováč",
+    "email": "lukas.kvc@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bossqone/corxy"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cors",
+    "proxy"
+  ],
+  "dependencies": {
+    "colors": "1.1.2",
+    "connect": "3.6.2",
+    "cors": "2.8.4",
+    "docopt": "0.6.2",
+    "http-proxy": "1.16.2",
+    "morgan": "1.8.2"
+  },
+  "bin": {
+    "corxy": "index.js"
+  }
+}
